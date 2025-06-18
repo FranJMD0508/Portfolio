@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  overflow-x: hidden;
+}
+
+#home {
+  scroll-margin-top: 80px;
+}
+
+#about {
+  scroll-margin-top: 20px;
+}
+
+#projects {
+  scroll-margin-top: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .hover\:scale-105:hover {
+    transform: scale(1.02);
+  }
+}
