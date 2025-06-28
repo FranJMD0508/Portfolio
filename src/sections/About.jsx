@@ -17,7 +17,7 @@ function About() {
         </svg>
       ),
       title: "Who am I?",
-      text: "I'm Francisco, a Full Stack Developer passionate about technology and innovation. With over 3 years of experience, I specialize in creating modern, efficient web solutions that solve real-world problems",
+      text: "I'm Francisco, a Full Stack Developer passionate about technology and innovation. With over 1 year of experience, I specialize in creating modern, efficient web solutions that solve real-world problems",
     },
     {
       icon: (
